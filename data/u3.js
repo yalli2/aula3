@@ -1,0 +1,32 @@
+AULA.unit({
+  n: 3, title: 'Prohibido prohibir', ko: '금지를 금지하라 — 사회적 관습과 규칙',
+  goal: '금지·의무·허용 표현하기, 일반적인 관습 말하기 — 우리나라 사람들의 관습에 대한 기사 쓰기',
+  can: ['lo normal / lo habitual / lo raro es + 원형', 'soler + 원형', '수량어 todo el mundo, la mayoría…', 'es obligatorio / está prohibido / se permite'],
+  tags: ['soler', 'prohibición', 'obligación', 'costumbres sociales', 'cuantificadores', 'impersonalidad'],
+  vocab: [
+    { g: '사회적 관습 · Costumbres', w: [['dar dos besos', '양 볼에 키스 인사하다'], ['dar la mano', '악수하다'], ['quitarse los zapatos', '신발을 벗다'], ['llegar puntual', '시간 맞춰 도착하다'], ['hacer sobremesa', '식후에 오래 담소하다'], ['dejar propina', '팁을 남기다'], ['tutear', '반말(tú)로 말하다'], ['tratar de usted', '존칭(usted)으로 대하다'], ['hacer cola', '줄을 서다'], ['hablar alto', '큰 소리로 말하다'], ['echarse la siesta', '낮잠을 자다'], ['invitar a una ronda', '한 턴 사다(술값 등)']] },
+    { g: '학교와 직장 · Escuela y trabajo', w: [['el uniforme', '교복·제복'], ['el horario flexible', '유연 근무제'], ['el teletrabajo', '재택근무'], ['las normas', '규칙'], ['el código de vestimenta', '복장 규정'], ['llevar corbata', '넥타이를 매다'], ['usar el móvil', '휴대폰을 쓰다'], ['comer en clase', '수업 중에 먹다'], ['faltar a clase', '결석하다'], ['el recreo', '쉬는 시간']] },
+    { g: '규칙 표현 · Normas', w: [['Está prohibido…', '…은 금지되어 있다'], ['No se puede…', '…하면 안 된다'], ['Es obligatorio…', '…은 의무다'], ['Hay que…', '…해야 한다'], ['Está permitido…', '…은 허용된다'], ['Se permite(n)…', '…이 허용된다'], ['Se prohíbe(n)…', '…이 금지된다'], ['Está mal visto…', '…은 안 좋게 보인다']] }
+  ],
+  gram: [
+    { h: 'SOLER + 원형 (보통 ~하다)', t: [['', 'soler'], ['yo', 'suelo'], ['tú', 'sueles'], ['él/ella/usted', 'suele'], ['nosotros/-as', 'solemos'], ['vosotros/-as', 'soléis'], ['ellos/ellas/ustedes', 'suelen']], ex: [['En España se suele cenar a las nueve o las diez.', '스페인에서는 보통 9시나 10시에 저녁을 먹는다.'], ['Los coreanos solemos quitarnos los zapatos en casa.', '한국인은 보통 집에서 신발을 벗는다.']] },
+    { h: 'lo normal / lo habitual / lo raro es + 원형', ex: [['Lo normal es llegar diez minutos tarde a una fiesta.', '파티에는 10분 늦게 가는 게 보통이야.'], ['Lo raro es comer solo en un restaurante.', '식당에서 혼자 먹는 게 특이한 일이야.']] },
+    { h: '수량어', p: '**todo el mundo** (모두, 단수 동사) > **la mayoría (de)** > **mucha gente** > **algunos/-as** > **casi nadie** > **nadie**', ex: [['Todo el mundo se quita los zapatos.', '모두가 신발을 벗는다.'], ['La mayoría de los estudiantes lleva uniforme.', '대부분의 학생이 교복을 입는다.']] },
+    { h: '의무·금지·허용', t: [['형태', '예'], ['es obligatorio + 원형', 'Es obligatorio llevar casco.'], ['está prohibido + 원형', 'Está prohibido fumar aquí.'], ['está permitido + 원형', 'Está permitido usar el móvil en el recreo.'], ['se prohíbe / se prohíben + 명사', 'Se prohíben los perros.'], ['se permite / se permiten + 명사', 'Se permiten las mascotas pequeñas.']] }
+  ],
+  ex: [
+    { k: 'fill', t: 'soler 변화', it: ['Yo [suelo] desayunar café con tostadas.', 'Los españoles [suelen] comer a las dos.', '¿Tú [sueles] hacer deporte?', 'En mi familia [solemos] cenar juntos.', 'Mi abuelo [suele] echarse la siesta.'] },
+    { k: 'fill', t: '금지·의무·허용', it: ['En la biblioteca está [prohibido] hablar alto.', 'Para conducir es [obligatorio] tener carné.', 'Se [prohíben] los animales en el restaurante.', 'En este parque se [permite] el uso de bicicletas.', 'En el avión [hay] que apagar el móvil.'] },
+    { k: 'fill', t: 'prohíbe / prohíben, permite / permiten', it: ['Se {*prohíbe|prohíben} fumar.', 'Se {prohíbe|*prohíben} las bebidas alcohólicas.', 'Se {*permite|permiten} el acceso con mascotas.', 'Se {permite|*permiten} las fotos sin flash.'] },
+    { k: 'mc', t: '어떤 수량어?', d: '설명: 반 학생 30명 중… ', audio: false, it: [['30명 모두 휴대폰이 있다.', '*Todo el mundo tiene móvil.|Algunos tienen móvil.|Casi nadie tiene móvil.'], ['25명이 걸어서 등교한다.', '*La mayoría va andando.|Nadie va andando.|Algunos van andando.'], ['3명만 기타를 친다.', 'La mayoría toca la guitarra.|*Algunos tocan la guitarra.|Todo el mundo toca la guitarra.'], ['아무도 넥타이를 매지 않는다.', 'Algunos llevan corbata.|*Nadie lleva corbata.|Todo el mundo lleva corbata.']] },
+    { k: 'tf', t: '읽기 — 한국 vs. 스페인 관습', text: 'En España, lo normal es saludar con dos besos a los amigos y a la familia, incluso cuando te presentan a alguien. Los horarios son tardíos: se suele comer entre las dos y las tres y cenar a las nueve o más tarde. Después de comer, mucha gente hace sobremesa. En cambio, en Corea, lo habitual es saludar con una inclinación, y está mal visto hablar alto en el transporte público. En los dos países casi nadie deja mucha propina.',
+      it: [['En España se saluda con dos besos.', true], ['En España se suele cenar a las siete.', false], ['La sobremesa es una costumbre española.', true], ['En Corea está bien visto hablar alto en el metro.', false], ['En ambos países se deja mucha propina.', false]] },
+    { k: 'dlg', t: '듣기 — 우리 학교 규칙', listen: 1,
+      lines: [['Valeria', 'En mi instituto de Monterrey es obligatorio llevar uniforme.'], ['Hyunwoo', 'En el mío también. Y no se puede usar el móvil en clase, nos lo quitan.'], ['Valeria', '¿Y en el recreo?'], ['Hyunwoo', 'En el recreo está permitido. ¿Vosotros coméis en el instituto?'], ['Valeria', 'No, lo normal es comer en casa. Solemos salir a las dos.']],
+      it: [['Valeria의 학교에서 의무인 것은?', '*교복|넥타이|급식'], ['Hyunwoo 학교에서 쉬는 시간 휴대폰은?', '금지|*허용|압수'], ['Valeria 학교 학생들은 보통 어디서 점심을?', '학교|*집|식당'], ['Valeria는 보통 몇 시에 하교?', '12시|1시|*2시']] },
+    { k: 'sort', t: '스페인에서 좋게 보일까?', cats: ['👍 bien visto', '👎 mal visto'], it: [['saludar con dos besos', 0], ['interrumpir mucho', 1], ['hacer sobremesa', 0], ['llegar una hora tarde a una cita', 1], ['tutear a los compañeros', 0], ['no saludar al entrar', 1]] },
+    { k: 'order', t: '문장 만들기', it: ['Está prohibido usar el móvil en clase.', 'Lo normal es llegar puntual.', 'La mayoría de la gente suele cenar tarde.', 'Se prohíben los perros en la playa.'] },
+    { k: 'dict', t: '받아쓰기', it: ['En mi casa solemos cenar a las siete.', 'Es obligatorio llevar casco.', 'Todo el mundo se quita los zapatos.'] },
+    { k: 'write', t: '외국인을 위한 한국 관습 안내 기사', d: '외국인 친구에게 한국의 관습 5가지를 설명해 보세요(lo normal es, se suele, está mal visto, hay que…).', model: 'Si visitas Corea, te damos algunos consejos. Lo normal es quitarse los zapatos al entrar en una casa. En la mesa, hay que esperar a que la persona mayor empiece a comer. Está mal visto hablar alto en el metro. La mayoría de la gente usa las dos manos para dar o recibir algo de una persona mayor. Y no se suele dejar propina en los restaurantes.' }
+  ]
+});

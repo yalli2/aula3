@@ -1,0 +1,32 @@
+AULA.unit({
+  n: 6, title: '¡Basta ya!', ko: '이제 그만! — 공개서한으로 문제 제기하기',
+  goal: '바람·요구·필요 표현하기, 해결책 제안하기 — 사회 문제를 고발하는 공개서한 쓰기',
+  can: ['접속법 현재 (presente de subjuntivo)', 'querer/pedir/exigir/necesitar + 원형 / que + 접속법', '해결책 제안', 'cuando / antes de que + 접속법'],
+  tags: ['presente de subjuntivo', 'querer que', 'exigir', 'proponer soluciones', 'política', 'educación', 'carta abierta'],
+  vocab: [
+    { g: '정치·사회 · Política y sociedad', w: [['el gobierno', '정부'], ['el ayuntamiento', '시청'], ['los ciudadanos', '시민'], ['los vecinos', '주민'], ['la ley', '법'], ['los derechos', '권리'], ['los impuestos', '세금'], ['la manifestación', '시위'], ['la recogida de firmas', '서명 운동'], ['reclamar', '요구하다'], ['denunciar', '고발하다'], ['votar', '투표하다'], ['el presupuesto', '예산']] },
+    { g: '교육 · La educación', w: [['la enseñanza pública', '공교육'], ['la beca', '장학금'], ['las tasas', '등록금'], ['el aula', '교실'], ['la ratio de alumnos', '학급당 학생 수'], ['el profesorado', '교사진'], ['el comedor escolar', '학교 급식실'], ['las instalaciones', '시설'], ['la formación', '교육·연수']] },
+    { g: '요구·제안 표현', w: [['Queremos que…', '우리는 …하기를 원한다'], ['Pedimos que…', '우리는 …를 요청한다'], ['Exigimos que…', '우리는 …를 요구한다'], ['Necesitamos que…', '우리는 …가 필요하다'], ['Debemos…', '우리는 …해야 한다'], ['Se debería…', '…해야 할 것이다'], ['Habría que…', '…할 필요가 있을 것이다'], ['¡Basta ya!', '이제 그만!']] }
+  ],
+  gram: [
+    { h: '접속법 현재 — 규칙', p: '**yo 현재형**에서 -o를 떼고, -ar 동사는 **-e**, -er/-ir 동사는 **-a** 어미로 바꿔요.', t: [['', 'hablar', 'comer', 'vivir'], ['yo', 'hable', 'coma', 'viva'], ['tú', 'hables', 'comas', 'vivas'], ['él/ella/usted', 'hable', 'coma', 'viva'], ['nosotros/-as', 'hablemos', 'comamos', 'vivamos'], ['vosotros/-as', 'habléis', 'comáis', 'viváis'], ['ellos/ellas/ustedes', 'hablen', 'coman', 'vivan']] },
+    { h: '접속법 현재 — 불규칙', t: [['원형', 'yo 현재', '접속법'], ['tener', 'tengo', 'tenga'], ['hacer', 'hago', 'haga'], ['poner', 'pongo', 'ponga'], ['poder', 'puedo', 'pueda (podamos)'], ['querer', 'quiero', 'quiera'], ['ser', '—', 'sea'], ['ir', '—', 'vaya'], ['estar', '—', 'esté'], ['haber', '—', 'haya'], ['saber', '—', 'sepa'], ['dar', '—', 'dé']] },
+    { h: '원형 vs. que + 접속법', p: '주어가 **같으면 원형**, **다르면 que + 접속법**.', ex: [['Quiero cambiar de instituto.', '(나는) 전학 가고 싶다.'], ['Quiero que el ayuntamiento abra más bibliotecas.', '시청이 도서관을 더 열기를 원한다.'], ['Exigimos que haya más becas.', '장학금을 늘릴 것을 요구한다.']] },
+    { h: '해결책 제안', ex: [['Debemos reciclar más.', ''], ['Tenemos que reducir el tráfico.', ''], ['Se debería prohibir el plástico de un solo uso.', ''], ['Deberían construir más carriles bici.', ''], ['Habría que bajar el precio del transporte.', '']] },
+    { h: 'cuando / antes de que + 접속법 (미래)', ex: [['Cuando tengamos un parque, los niños jugarán seguros.', '공원이 생기면 아이들이 안전하게 놀 것이다.'], ['Hay que actuar antes de que sea demasiado tarde.', '너무 늦기 전에 행동해야 한다.']] }
+  ],
+  ex: [
+    { k: 'fill', t: '접속법 현재 — 규칙', it: ['Quiero que mis padres me [escuchen]. (escuchar)', 'Pedimos que el gobierno [invierta] más en educación. (invertir)', 'Necesito que me [ayudes]. (ayudar, tú)', 'Exigimos que el ayuntamiento [limpie] el parque. (limpiar)', 'El profesor quiere que [leamos] más. (leer, nosotros)'] },
+    { k: 'fill', t: '접속법 현재 — 불규칙', it: ['Queremos que [haya] más zonas verdes. (haber)', 'Pido que [seas] más paciente. (ser, tú)', 'Necesitamos que el metro [vaya] más rápido. (ir)', 'Exigimos que los alumnos [tengan] becas. (tener)', 'Quiero que [estéis] tranquilos. (estar, vosotros)', 'Pedimos que nos [den] una respuesta. (dar, ellos)'] },
+    { k: 'fill', t: '원형? que + 접속법?', it: ['Quiero {*estudiar|que estudie} en el extranjero.', 'Mis padres quieren {estudiar|*que estudie} Derecho.', 'Necesitamos {*tener|que tengamos} más tiempo libre.', 'Los vecinos piden {cerrar|*que cierren} la discoteca.', 'Exijo {*hablar|que hable} con el director.'] },
+    { k: 'fill', t: 'cuando + 접속법 / 직설법', d: '미래의 일이면 접속법, 습관이면 직설법!', it: ['Cuando {*termine|termino} el bachillerato, viajaré por Sudamérica.', 'Cuando {tenga|*tengo} tiempo, siempre leo.', 'Te llamaré cuando {*llegue|llego} a casa.', 'Antes de que {*empiece|empieza} la clase, apaga el móvil.'] },
+    { k: 'tf', t: '읽기 — 공개서한', text: '**Carta abierta al Ayuntamiento de Villaverde**\nSomos los alumnos del IES Miguel Hernández. Desde hace dos años, el polideportivo del barrio está cerrado y no tenemos ningún lugar para hacer deporte. ¡Basta ya! Exigimos que el ayuntamiento lo abra antes de que termine el curso. Además, pedimos que pongan más autobuses por las mañanas, porque muchos llegamos tarde a clase. Creemos que se debería consultar a los jóvenes antes de tomar decisiones sobre el barrio. Hemos recogido 800 firmas.',
+      it: [['El polideportivo está cerrado desde hace dos años.', true], ['Los alumnos quieren que lo abran el próximo curso.', false], ['Piden más autobuses por la mañana.', true], ['Han recogido ochenta firmas.', false], ['Quieren que se consulte a los jóvenes.', true]] },
+    { k: 'dlg', t: '듣기 — 주민 회의', listen: 1,
+      lines: [['Vecina', 'El problema es el ruido de los bares por la noche. No podemos dormir.'], ['Vecino', 'Yo propongo que los bares cierren a la una.'], ['Dueño de bar', 'Eso es mucho. Habría que poner ventanas mejores en los bares.'], ['Vecina', 'Vale, pero queremos que la policía controle el ruido los fines de semana.'], ['Vecino', 'Y deberíamos hablar con el ayuntamiento antes de que llegue el verano.']],
+      it: [['주민들의 문제는?', '쓰레기|*밤의 소음|교통'], ['한 주민이 제안한 폐점 시간은?', '자정|*새벽 1시|새벽 2시'], ['바 주인의 제안은?', '*더 좋은 창문 설치|일찍 문 닫기|경찰 순찰'], ['언제까지 시청과 얘기해야 하나요?', '*여름이 오기 전|크리스마스 전|다음 달']] },
+    { k: 'order', t: '문장 만들기', it: ['Exigimos que haya más becas.', 'Quiero que me escuches.', 'Se debería prohibir el plástico.', 'Cuando llegue el verano, iremos a la playa.'] },
+    { k: 'dict', t: '받아쓰기', it: ['Queremos que el parque esté limpio.', 'Habría que bajar los precios.', 'Te llamo cuando salga de clase.'] },
+    { k: 'write', t: '공개서한 쓰기', d: '우리 학교나 동네의 문제 하나를 골라, 문제 설명 + 요구(exigimos que, pedimos que) + 해결책 제안(se debería, habría que)을 담은 공개서한을 써 보세요.', model: 'Carta abierta a la dirección del colegio: Somos los alumnos de 10.º curso. Desde septiembre, la biblioteca cierra a las cuatro y no tenemos un lugar tranquilo para estudiar. ¡Basta ya! Pedimos que la biblioteca abra hasta las seis y exigimos que haya más ordenadores. Creemos que se debería crear una sala de estudio y habría que preguntar a los estudiantes qué necesitan. Esperamos que nos respondan pronto.' }
+  ]
+});
